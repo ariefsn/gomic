@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	g := gomic.Init("")
+	g := gomic.Init()
 
 	res := g.GetDC("004")
 
